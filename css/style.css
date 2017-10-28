@@ -1,18 +1,31 @@
-/*#countdown{
-  background-color: black;
-  font-family: 'Aldrich', sans-serif;
-}
-*/
-
-
-/*.contact-map .information{
-  background-color: black !important;
+@import "//fonts.googleapis.com/css?family=Bangers";
+body {
+  margin: 0;
 }
 
-.contact-map .information p{
+.wrap {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  height: 100vh !important;
+  background: black !important;
+}
+
+.time-to {
+  text-align: center !important;
+  font-family: Bangers !important;
   color: white !important;
+  font-size: 35px !important;
+  letter-spacing: 2px !important;
 }
-
-.contact-map .information strong{
-  color: #B91011 !important;
-}*/
+.time-to span {
+  display: block !important;
+  font-size: 80px !important;
+  color: red !important;
+}

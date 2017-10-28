@@ -10,7 +10,7 @@
         <meta name="description" content="Kolejna witryna oparta na WordPressie">
         <meta property="og:title" content="Cherrypick Games"/>
         <meta property="og:description" content="http://cherrypickgames.com/xmlrpc.php"/>
-        <title>Cherrypick Games</title>
+        <title>Pursuit Wesite</title>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -51,16 +51,24 @@ img.emoji {
     background: none !important;
     padding: 0 !important;
 }
+footer{
+    height: 50px !important;
+    font-size: 100% !important;
+}
+@media (max-width: 1199px) 
+.fancybox-container {
+    display: visible !important;
+}
 </style>
-<link rel='stylesheet' id='cherrypick-styles-css'  href='css/style.min4a41.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='css/style.min4a41.css'/>
 <link rel="icon" href="img/logo.png" sizes="32x32" />
 <link rel="icon" href="img/logo.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="img/logo.png" />
-<meta name="msapplication-TileImage" content="img/logo.png" />
 <link rel='stylesheet'  href='css/style.css' />
+<meta name="msapplication-TileImage" content="img/logo.png" />
 
     </head>
-<body style="background-color: black !important;">
+<body style="background-color: white !important;">
 <div class="wrapper">
     <div class="cherry-preloader-wrapper preloader-active" id="cherry-preloader-wrapper"><img class="cherry-preloader"
                                                                                               src="img/icons/preloader.gif">
@@ -72,22 +80,46 @@ img.emoji {
       <div class="col col-xs-12">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.php">
-            <img src="img/logo.png" alt="cherrypick logo" width="150">
+            <img src="img/logo.png" alt="cherrypick logo" width="%" class="img-responsive" style="margin-left: 15%">
           </a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-nav">
             <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
         </div>
         <div class="collapse navbar-collapse standard-nav" id="main-nav">
             <ul class="">
-                <li><a class="" href="synopsis.php" style="color: white !important;">Synopsis</a></li>
-                <li><a class="" href="gallery.php" style="color: white !important;" >Gallery</a></li>
-                <!-- <li><a class="" href="http://cherrypickgames.com/eu-projects/">EU Projects</a></li> -->
-                <li><a class="" href="buyticket.php" style="color: white !important;">Book Priemere ticket</a></li>
+                <li><a class="" href="synopsis.php" style="color: #B91011 !important;">Synopsis</a></li>
+                <li><a class="" href="gallery.php" style="color: #B91011 !important;" >Behind the scences</a></li>
+                <li><a class="" href="buyticket.php" style="color: #B91011 !important;">Book Priemere ticket</a></li>
             </ul>        
         </div>
       </div>
     </div>
   </div>
-</nav>    <script type="text/javascript">
+</nav>
+<style type="text/css">
+    .main-navbar .navbar-header .navbar-brand {
+        overflow: visible !important;
+        padding-top: 0px;
+        margin-top: 0px;
+        width: 100px !important;
+        height: 70px !important;
+        margin-bottom: 50px;
+    }
+
+    .main-navbar .navbar-header .navbar-brand img {
+
+        padding-top: 15px;
+        margin-top: 0px;
+        /*height: 100px !important;*/
+        /*width: 200px !important;*/
+    }
+
+    button.navbar-toggle {
+        margin-top: 15px !important;
+        margin-right: 0px;
+    }
+</style>
+
+<script type="text/javascript">
         var paralaxFactor = 0.25;
     </script>
