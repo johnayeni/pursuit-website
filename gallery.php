@@ -16,38 +16,80 @@
   list-style-type: inline;
  }
 </style>
-    <section class="games-list">
-      <h1 class="text-center">BEHIND THE SCENES</h1>
-        <ul class="row">
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind5.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind.jpg" alt="">
-              </li>
+    <h1 class="text-center">BEHIND THE SCENCES</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind.jpg" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <div class="gallery-text">A scene showing them shooting</div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind.JPG" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
 
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind6.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind5.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind6.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind7.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind8.jpg" alt="">
-              </li>
-              <li class=" col-md-4 square-games">
-                  <img class="game-bg" src="img/behind5.jpg" alt="">
-              </li>
-			   </ul>
-    </section>
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind6.jpg" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind7.JPG" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind6.JPG" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind6.JPG" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind6.jpg" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="gallery-container">
+                    <img src="img/behind.jpg" alt="Avatar" class="gallery-image">
+                    <div class="gallery-overlay">
+                      <!-- <div class="gallery-text">Inspired</div> -->
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
 
 <?php require 'footer.php'?>

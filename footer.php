@@ -14,8 +14,8 @@
 
 </div>
 
-<script type='text/javascript' src='js/vendor.min4a41.js'></script>
 <script type='text/javascript' src='js/jquery-3.2.1.min.js'></script>
+<script type='text/javascript' src='js/vendor.min4a41.js'></script>
 <script type='text/javascript' src='js/angular.js'></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type='text/javascript'>

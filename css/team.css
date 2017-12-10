@@ -1,0 +1,39 @@
+.team-container {
+  width: 100%;
+  /*margin: 20px;*/
+
+}
+
+.team-image {
+  width: 100%;
+ 
+}
+
+.team-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #B91011;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  opacity: 0.9;
+  transition: .5s ease;
+}
+
+.team-container:hover .team-overlay {
+  width: 100%;
+}
+
+.team-text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

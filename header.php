@@ -55,16 +55,18 @@ footer{
     height: 50px !important;
     font-size: 100% !important;
 }
-@media (max-width: 1199px) 
+/* @media (max-width: 1199px) 
 .fancybox-container {
     display: visible !important;
-}
+} */
 </style>
 <link rel='stylesheet'  href='css/style.min4a41.css'/>
 <link rel="icon" href="img/logo.png" sizes="32x32" />
 <link rel="icon" href="img/logo.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="img/logo.png" />
 <link rel='stylesheet'  href='css/style.css' />
+<link rel="stylesheet" type="text/css" href="css/team.css"/>
+<link rel="stylesheet" type="text/css" href="css/gallery.css"/>    
 <meta name="msapplication-TileImage" content="img/logo.png" />
 
     </head>
@@ -89,8 +91,9 @@ footer{
             <ul class="">
                 <li><a class="" href="synopsis.php" style="color: #B91011 !important;">Synopsis</a></li>
                 <li><a class="" href="gallery.php" style="color: #B91011 !important;" >Behind the scences</a></li>
-                <li><a class="" href="buyticket.php" style="color: #B91011 !important;">Book Priemere ticket</a></li>
-            </ul>        
+                <li><a class="" href="team.php" style="color: #B91011 !important;" >Meet the Team</a></li>
+                <li><a class="" href="buyticket.html" style="background-color: #B91011 !important;color: white;padding: 20px; border-radius: 20px; ">Book Priemere ticket</a></li>
+                </ul>        
         </div>
       </div>
     </div>

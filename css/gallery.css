@@ -1,0 +1,40 @@
+.gallery-container {
+    width: 100%;
+    /* transition: width 0.5s ease; */
+    /*margin: 20px;*/
+  
+  }
+  .gallery-image {
+    width: 100%;
+   margin-bottom: 20px;
+  }
+  
+  .gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: none;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    opacity: 0.6;
+    transition: .5s ease;
+  }
+  
+  .gallery-container:hover .gallery-overlay {
+    width: 100%;
+    opacity: 1;
+  }
+  
+  .gallery-text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
